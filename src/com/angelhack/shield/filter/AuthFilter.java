@@ -1,3 +1,4 @@
+package com.angelhack.shield.filter;
 import java.io.IOException;
 
 import javax.servlet.Filter;
@@ -49,7 +50,6 @@ public class AuthFilter implements Filter {
 		HttpServletResponse response = (HttpServletResponse) arg1;
 		
 		String cookie = getAuthCookie(request);
-		
 		
 		
 	}
