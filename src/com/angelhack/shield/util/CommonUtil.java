@@ -24,4 +24,9 @@ public class CommonUtil {
 		return null;
 	}
 	
+	public static String getAuthCookieValue(HttpServletRequest request){
+		return getCookieValue(request, AuthUtil.authCookieName);
+	}
+	
+	
 }

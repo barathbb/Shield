@@ -4,7 +4,11 @@ import com.angelhack.shield.struts.StrutsContext;
 
 public class DefaultHome extends StrutsContext {
 	
-	public void home(){
+	public String home(){
+		
+		System.out.println("Came here");
+		
+		return SUCCESS;
 		
 	}
 
