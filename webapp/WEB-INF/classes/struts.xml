@@ -18,6 +18,24 @@
         	<result name="success">/default/jsp/home.jsp</result>
         </action>
         
+        
+        
+        <action name="/signin" class="com.angelhack.shield.home.DefaultHome" method="signin">
+        	<result name="success">/default/jsp/home.jsp</result>
+        </action>
+        
+         <action name="/signup" class="com.angelhack.shield.home.DefaultHome" method="signup">
+        	<result name="success">/default/jsp/home.jsp</result>
+        </action>
+        
+        <action name="/signout" class="com.angelhack.shield.home.DefaultHome" method="signout">
+        	<result name="success">/default/jsp/home.jsp</result>
+        </action>
+        
+        <action name="/profile" class="com.angelhack.shield.home.DefaultHome" method="profile">
+        	<result name="success">/default/jsp/home.jsp</result>
+        </action>
+        
     </package>
     
     
